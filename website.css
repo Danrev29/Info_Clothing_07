@@ -1,0 +1,269 @@
+body {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  background-color: black;
+}
+
+.container .image {
+  margin-left: 70px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 70px;
+  position: fixed;
+  background-color: rgb(44, 44, 44);
+  z-index: 1000; 
+  width: 100%;
+  font-family: "FF Mark W05", Arial, sans-serif;
+  font-size: 14px !important;
+    font-weight: bold;
+}
+
+.navbar {
+  float: right;
+  margin-left: 430px;
+}
+.navbar a:hover {
+  color:rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(255, 255, 255)  ;
+
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 20px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+
+}
+
+.bg img {
+  opacity: 0.9;
+  height: 900px;
+  width: 100%;
+  
+}
+
+.foreground img {
+  position: absolute;
+  top: 50%; 
+  left: 52%; 
+  transform: translate(-50%, -50%);
+  z-index: 2; 
+  opacity: 0.7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+section { 
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.con p {
+  padding:10px;
+  word-wrap: break-word;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 18px;
+  text-indent: 30px;
+ font-family: sans-serif;
+}
+.block2{
+color: white;
+}
+.block3 {
+ background-color: white;
+}
+section .con {
+  margin: 100px;
+  
+}
+
+section h2{
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+h4 {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+   font-weight: bold;
+}
+ .cards {
+  display: flex;
+
+}
+ .cards .text-card {
+ background-color: rgb(59, 59, 59);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px;
+  padding: 20px;
+  position: relative;
+  display: inline-block;
+}
+.cards .text-card h3::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: -8px;
+  right: -8px; 
+  bottom: 10px;
+  border: 3px solid rgb(165, 165, 165); 
+  pointer-events: none;
+  
+}
+
+.cards .text-card h3{
+  font-size: 20px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: white;
+
+}  
+.text-card img{
+  justify-content: center;
+  height: 160px;
+  width: 280px;
+}
+.cards .text-card p{
+font-family: 'Times New Roman', Times, serif;
+ font-size: 16px;
+color: white;
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.con hr {
+  margin: 10px;
+  width: 1120px;
+}
+.responsive{
+margin-top: 10px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.gallery { 
+margin: 5px;
+width: 250px;
+
+}
+
+.gallery img {
+  width: 240px;
+  height: 200px;
+}
+.res{
+  margin: 5px;
+}
+.contact1{
+  text-align: center;
+  border-left: solid black 3px;
+  margin-left: 40px;
+  border-right: solid black 3px;
+  margin-right: 40px;
+}
+.contact2{
+  display: flex;
+  justify-content: center;
+}
+.contact2 p{
+  margin-top: 30px;
+ margin-left: 230px;
+ margin-right: 230px;
+}
+.contact3{
+margin-bottom: 20px;
+font-weight: bold;
+padding: 20px;
+}
+ h1{
+  font-size: 20px ;
+}
+.contact3 a{
+  text-decoration: none;
+  color: black;
+}
+.contact3 a:hover{
+  border-bottom: solid 2px black;
+}
+.contact4{
+  margin-bottom: 30px;
+  display: flex;
+justify-content: center;
+}
+.contact4 img{
+  margin-right: 5px;
+}
+.contact4 p{
+  font-family: sans-serif;
+  font-size: 13px;
+}
+.about1{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+h5 {
+  font-size: 20px ;
+  margin-left: 100px;
+  color: rgb(255, 255, 255);
+  padding-top: 10px;
+}
+.about2{
+  background-color: rgb(59, 59, 59);
+  margin-bottom: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  position: relative;
+  display: inline-block;
+}
+.about2 ::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: -8px;
+  right: -8px; 
+  bottom: 10px;
+  border: 3px solid rgb(165, 165, 165); 
+  pointer-events: none;
+
+}
+.about2 p{
+font-size: 16px;
+color: rgb(255, 255, 255);
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+}

@@ -1,0 +1,97 @@
+body {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    background-image: url(images/blackback.jpg);
+  }
+.container .image {
+    margin-left: 70px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 70px;
+    position: fixed;
+    background-color: rgb(44, 44, 44);
+    z-index: 1000; 
+    width: 100%;
+    font-family: "FF Mark W05", Arial, sans-serif;
+    font-size: 14px !important;
+      font-weight: bold;
+  }
+  
+  .navbar {
+    float: right;
+    margin-left: 800px;
+  }
+  .navbar a:hover{
+    color:rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255)  ;
+  }
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  .navbar li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+  
+  }
+  
+  .par{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+.par .des img{
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  outline: 1px solid #000000;
+  outline-offset: -10px;
+}
+.des img{
+    width: 250px;
+	height: 500px;
+    margin: 15px;
+    margin-top: 150px;
+    border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+
+}
+
+.des img:hover{
+    transform: scale(1.09);
+    transition: 0.5s;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+}
+
+
+.logo{
+    margin-top: 50px;
+    display: flex;
+  justify-content: center;
+}
+  .logo img{
+    margin-right: 5px;
+  }
+  .logo p{
+    font-family: sans-serif;
+    font-size: 13px;
+    color: white;
+  }
